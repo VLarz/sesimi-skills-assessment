@@ -1,0 +1,40 @@
+* {
+    font-family: $primary-font;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $primary-color;
+}
+p,
+span,
+a {
+    color: $secondary-color;
+}
+
+.primary-button {
+    color: #fff;
+    background-color: $primary-color;
+    text-decoration: none;
+    padding: 0 24px;
+    border-radius: 8px;
+    transition: 0.2s;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    &:hover {
+        color: $secondary-color;
+    }
+}
