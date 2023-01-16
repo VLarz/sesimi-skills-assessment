@@ -1,0 +1,27 @@
+.test-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .content {
+        height: 1080px;
+        width: 1080px;
+        position: relative;
+        @include desktop {
+            height: 100%;
+            width: 100%;
+        }
+        .image {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: left;
+        }
+        .logo {
+            height: 100px;
+            position: absolute;
+            bottom: 32px;
+            right: 32px;
+        }
+    }
+}

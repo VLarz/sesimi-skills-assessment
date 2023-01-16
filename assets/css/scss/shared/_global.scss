@@ -29,12 +29,19 @@ a {
     border-radius: 8px;
     transition: 0.2s;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
-    height: 60px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 50px;
     &:hover {
-        color: $secondary-color;
+        background-color: darken($primary-color, 10%);
     }
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 16px;
 }

@@ -1,0 +1,17 @@
+footer {
+    margin-top: 200px;
+    background-color: $secondary-color;
+    padding: 16px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            color: #fff;
+            max-width: 600px;
+        }
+        .logo {
+            height: 60px;
+        }
+    }
+}
